@@ -11,3 +11,9 @@ build
 builds
 bin
 obj
+
+# Antlr Generated files
+src/gen/*.interp
+src/gen/*.tokens
+src/gen/*.cpp
+src/gen/*.h

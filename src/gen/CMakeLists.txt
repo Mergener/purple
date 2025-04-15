@@ -1,0 +1,3 @@
+add_library(antlr_parser SHARED purple_grammarBaseListener.cpp purple_grammarLexer.cpp purple_grammarListener.cpp purple_grammarParser.cpp)
+target_include_directories(antlr_parser PUBLIC ${EXT_DIRECTORY}/antlr4-cpp-runtime/runtime/src)
+target_link_libraries(antlr_parser PUBLIC antlr4_cpp_runtime)

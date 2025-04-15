@@ -1,13 +1,3 @@
-#include "lib.h"
-
-namespace purple {
-
-int add(int a, int b) {
-    return a + b;
-}
-
-int sub(int a, int b) {
-    return a - b;
-}
-
-}
+//
+// Created by Thomas Mergener on 15/04/2025.
+//
